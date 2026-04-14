@@ -3,7 +3,7 @@
 // Talks to backend at http://localhost:3000/feedback
 // ============================================================
 
-const API_URL = 'http://localhost:3000/feedback';
+const API_URL = 'https://student-feedback-system-wpi9.onrender.com/feedback';
 
 // -------------------------------------------------------
 // STAR RATING LOGIC
