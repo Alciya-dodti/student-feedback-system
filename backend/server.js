@@ -32,7 +32,7 @@ app.use(express.json());
 
 // ---- DATABASE CONNECTION ----
 // Connect to MongoDB (make sure MongoDB is running locally)
-mongoose.connect('mongodb://localhost:27017/studentFeedbackDB')
+mongoose.connect('mongodb+srv://alciya:alciya123@cluster0.l3zdv18.mongodb.net/?appName=Cluster0')
   .then(() => {
     console.log('✅ Connected to MongoDB successfully!');
   })
